@@ -1,0 +1,10 @@
+<h1>Recent Tweets</h1>
+
+
+</br>
+
+<ul>
+<% @tweets.each do |tweet| %>
+  <li><%= tweet.text %></li>
+<% end %>
+</ul>

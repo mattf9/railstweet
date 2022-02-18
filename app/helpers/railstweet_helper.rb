@@ -1,0 +1,2 @@
+module RailstweetHelper
+end
